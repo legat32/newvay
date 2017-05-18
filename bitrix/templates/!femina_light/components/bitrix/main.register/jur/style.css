@@ -1,0 +1,59 @@
+div.bx-auth-reg input[type=text], div.bx-auth-reg input[type=password], div.bx-auth-reg textarea, div.bx-auth-reg select {
+	background: #fff;
+	border: 1px solid #c1c5c8;
+	border-radius: 2px;
+	color: #000;
+	box-shadow: inset 2px 2px 2px -1px rgba(180,188,191,0.5);
+	display: inline-block;
+	outline: none;
+	vertical-align: middle;
+	font-size: 12px;
+	padding: 6px 8px;
+	margin:3px;
+	margin-left:0;
+	min-width:250px;
+}
+.err_input {
+	border:1px solid red !important;
+	background-color: #FFEEEE !important;
+	}
+div.bx-auth-reg textarea {
+	/*margin-left:5px;*/
+	}
+
+div.bx-auth-reg input.bx-auth-input {	vertical-align:middle; }
+div.bx-auth-reg input {border:1px solid gray;}
+div.bx-auth-reg span.bx-auth-secure {background-color:#FFFAE3; border:1px solid #DEDBC8; padding:2px; display:inline-block; vertical-align:middle;}
+div.bx-auth-reg div.bx-auth-secure-icon {background-image:url(images/sec.png); background-repeat:no-repeat; background-position:center; width:19px; height:18px;}
+div.bx-auth-reg div.bx-auth-secure-unlock {background-image:url(images/sec-unlocked.png);}
+
+div.bx-auth-reg input[type=button] {
+	background-color: red !important;
+	}
+	
+div.bx-auth-reg td {
+	padding:10px 0 0 0;
+	}
+	
+div.bx-auth-reg label {
+	text-transform: lowercase;
+	}
+div.bx-auth-reg .checkbox-box {
+	width:77%;
+	padding:3px;
+	}
+div.bx-auth-reg label input[type=radio] {
+	margin-right:5px !important;
+	margin-left:5px !important;
+	}
+div.bx-auth-reg label input[type=checkbox] {
+	margin-right:5px !important;
+	margin-left:5px !important;
+	padding:2px !important;
+	}
+.additional {
+	font-size:10px;
+	font-style: italic;
+	font-weight: bold;
+	color:rgb(124, 7, 7);
+	}

@@ -1,0 +1,148 @@
+.structure section {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #000;
+  margin-bottom: 50px;
+}
+.structure section .section-image {
+  width: 50%;
+}
+.structure section .section-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.structure ul li {list-style-type:none;}
+
+.structure section .section-content.section-209{
+  background:url('/bitrix/templates/new_femina/images/vay-logo.jpg') bottom center no-repeat;
+  background-size: 21% auto;
+}
+.structure section .section-content.section-269{
+  background:url('/bitrix/templates/new_femina/images/vay-man-logo.jpg') bottom center no-repeat;
+  background-size: 21% auto;
+}
+.structure section .section-content.section-246{
+  background:url('/bitrix/templates/new_femina/images/vay-kids-logo.jpg') bottom center no-repeat;
+  background-size: 21% auto;
+}
+.structure section .section-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+ 
+}
+.structure section .section-content a {
+  width: 100%;
+  max-width: 355px;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  color: #000;
+  text-decoration: none;
+}
+.structure section .section-content a h2 {
+  font-size: 33px;
+  font-weight: normal;
+  margin: 0 0 0px 0;
+  text-transform: uppercase;
+}
+.structure section .section-content a .count {
+  font-size: 20px;
+  border-bottom: 1px solid #000;
+  padding-bottom: 15px;
+  margin-bottom: 25px;
+}
+.structure section .section-content a .count span {
+  font-family: 'Circe-Bold';
+}
+.structure section .section-content ul {
+  text-align: center;
+}
+.structure section .section-content ul.section-246 {
+   display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.structure section .section-content ul.section-246 > li >a {
+   text-transform: uppercase;
+   font-family: 'Circe-Bold';
+}
+.structure section .section-content ul a {
+  font-family: 'Circe-Light';
+  font-size: 17px;
+}
+.structure section .section-content ul a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 1250px){
+  .structure section .section-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 50%;
+    padding-top: 20px;
+  }
+}
+@media (max-width: 992px){
+  .structure{
+    max-width: 640px;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .structure section{
+    flex-direction: column;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+  }
+  .structure section .section-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 50%;
+    padding-top: 20px;
+    background: none !important;
+  }
+  .structure section .section-image,.structure section .section-content{
+    position: relative;
+    width: 100%;
+  }
+  .structure section .section-logo{
+    position: absolute;
+    right: 0;
+    width: 100%;
+    top:0;
+    bottom: 0;
+    z-index: 1;
+  }
+  .structure section .section-content a{
+    white-space: nowrap;
+  }
+  .structure section .section-content ul a{
+    font-size: 16px;
+  }
+  .structure .VAY .section-logo{
+  background:url('/bitrix/templates/new_femina/images/vay-logo.jpg') center right no-repeat;
+  background-size: 21% auto;
+}
+.structure .VAY.MAN .section-logo{
+  background:url('/bitrix/templates/new_femina/images/vay-man-logo.jpg') center right no-repeat;
+  background-size: 21% auto;
+}
+.structure .VAY.KIDS .section-logo{
+  background:url('/bitrix/templates/new_femina/images/vay-kids-logo.jpg') center right no-repeat;
+  background-size: 21% auto;
+}
+}
+@media (max-width: 992px){
+  .structure section .section-content ul.section-246{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .structure section .section-content ul.section-247{
+    margin-bottom: 15px;
+  }
+}

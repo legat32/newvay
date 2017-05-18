@@ -1,0 +1,10 @@
+ul.news {
+	
+}
+ul.news li{
+	margin:5px 15px;
+	margin-top:40px;
+}
+ul.news li h3 a {
+	color:#FFF;
+	}

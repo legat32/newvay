@@ -1,0 +1,101 @@
+</div><!-- #content-->
+		</div><!-- #container-->
+
+                <div class="sidebar" id="sideLeft">
+			<?$APPLICATION->IncludeComponent("bitrix:main.include", ".default", array(
+	"AREA_FILE_SHOW" => "sect",
+	"AREA_FILE_SUFFIX" => "inc",
+	"AREA_FILE_RECURSIVE" => "N",
+	"EDIT_TEMPLATE" => ""
+	),
+	false
+);?>
+<?$APPLICATION->IncludeComponent(
+	"bitrix:main.include",
+	"",
+	Array(
+		"AREA_FILE_SHOW" => "page",
+		"AREA_FILE_SUFFIX" => "inc",
+		"EDIT_TEMPLATE" => ""
+	),
+false
+);?>		</div><!-- .sidebar#sideLeft -->
+
+	</div><!-- #middle-->
+
+</div><!-- #wrapper -->
+
+<div id="footer1">
+	<div id="footer2">
+	<?$APPLICATION->IncludeComponent(
+		"bitrix:main.include",
+		"",
+		Array(
+			"AREA_FILE_SHOW" => "file",
+			"PATH" => "/include/footer1.php",
+			"EDIT_TEMPLATE" => ""
+		),
+	false
+	);?>
+	<?$APPLICATION->IncludeComponent(
+		"bitrix:main.include",
+		"",
+		Array(
+			"AREA_FILE_SHOW" => "file",
+			"PATH" => "/include/footer2.php",
+			"EDIT_TEMPLATE" => ""
+		),
+	false
+	);?>	
+	</div>
+</div>
+<!-- #footer -->
+
+<?if(!$USER->isAuthorized()):?>
+<script>
+	$(".head_ask").on("click", function() {
+		$.fancybox.open([
+			{
+				href : '/forms/ask.php?blank=Y&model=Общий вопрос',
+				type : 'iframe',
+				autoSize: true,
+				maxWidth: '500px'
+			}
+		]);
+		return false;
+		});
+</script>
+<?endif?>
+
+<script>
+	 $(document).ready( function() {
+
+		// Accordion Menu
+		$('#accordion').dcAccordion({
+			eventType: 'click',
+			autoClose: true,
+			saveState: true,
+			disableLink: true,
+			showCount: true,
+			speed: 100
+			});
+		
+		// Fancybox
+		$(".fancybox").fancybox({
+			padding     : 4
+			});
+		});
+			
+</script>
+
+<div id="fpanel">
+    <table cellpadding="2" border="0" style="margin-top:5px;">
+    <tbody><tr><td><a href="https://www.facebook.com/pages/Фемина-Трейд/154064848049191" target="_blank" title="Facebook" rel="nofollow"><img width="32" height="32" src="/assets/images/social/facebook.gif" alt="facebook"></a></td></tr>
+    <tr><td><a href="http://vkontakte.ru/femina_treid" rel="nofollow" target="_blank" title="ВКонтакте"><img width="32" height="32" src="/assets/images/social/vkontakte.gif" alt="vkontakte"></a></td></tr>
+    <tr><td><a href="https://twitter.com/#!/feminatrade" rel="nofollow" target="_blank" title="Twitter"><img width="32" height="32" alt="twitter" src="/assets/images/social/twitter.gif"></a></td></tr>
+    <tr><td><a href="http://www.odnoklassniki.ru/group/50991050588342" rel="nofollow" target="_blank" title="Одноклассники"><img width="32" height="32" alt="odnoklassniki" src="/assets/images/social/odnoklassniki.gif"></a></td></tr>
+    </tbody></table>
+</div>
+
+</body>
+</html>

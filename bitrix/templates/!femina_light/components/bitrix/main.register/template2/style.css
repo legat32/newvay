@@ -1,0 +1,19 @@
+div.bx-auth-reg input[type=text], div.bx-auth-reg input[type=password] {
+	background: #fff;
+	border: 1px solid #c1c5c8 !important;
+	border-radius: 2px;
+	color: #000;
+	box-shadow: inset 2px 2px 2px -1px rgba(180,188,191,0.5);
+	display: inline-block;
+	outline: none;
+	vertical-align: middle;
+	font-size: 12px;
+	padding: 6px 8px;
+	margin:3px;
+}
+div.bx-auth-reg input.bx-auth-input {	vertical-align:middle; }
+div.bx-auth-reg input {border:1px solid gray;}
+div.bx-auth-reg span.bx-auth-secure {background-color:#FFFAE3; border:1px solid #DEDBC8; padding:2px; display:inline-block; vertical-align:middle;}
+div.bx-auth-reg div.bx-auth-secure-icon {background-image:url(images/sec.png); background-repeat:no-repeat; background-position:center; width:19px; height:18px;}
+div.bx-auth-reg div.bx-auth-secure-unlock {background-image:url(images/sec-unlocked.png);}
+

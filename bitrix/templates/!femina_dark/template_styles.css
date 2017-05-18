@@ -1,0 +1,167 @@
+body,div,dl,dt,dd,ul,ol,li,pre,form,fieldset,input,textarea,blockquote,th,td{margin:0;padding:0}
+table{border-collapse:collapse;border-spacing:0}
+fieldset,img{border:0}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal}
+ol,ul{list-style:none}
+caption,th{text-align:left}
+q:before,q:after{content:''}
+abbr,acronym{border:0}
+html{height:100%}
+body{font:13px/18px Arial,Tahoma,Verdana,sans-serif;color:#FFF;width:100%;height:100%;background:#000}
+a{outline:none;text-decoration:underline}
+a:hover{text-decoration:none}
+p{/margin:0 0 18px}
+img{border:none}
+input{vertical-align:middle}
+#wrapper{width:1000px;margin:0 auto;min-height:100%;height:auto!important;height:100%}
+.clear{clear:both}
+#top{position:relative;height:163px;width:100%;background:url(/assets/bg_black_red1.png) repeat-x 50% 0}
+#header{width:1000px;height:163px;margin:0 auto}
+#header_l{float:left;width:340px;height:100px;margin:10px 10px 10px 0}
+#div_phones{width:300px;text-align:center;height:25px;margin-top:15px;padding:0 0 0 35px;background:url(/assets/ico_phone.png) no-repeat;font:bold 20px/18px 'PT Sans',sans-serif;color:#e04472;padding-left:40px;}
+#div_phones a{color:#e04472;text-decoration:none}
+div.worktime{display:inline-block;font-size: 16px;margin-left: 50px;}
+div.dealers{font-size:16px;display:inline-block;}
+#div_phones #kod{color:#FFF;font-size:14px}
+#div_contacts{width:320px;height:30px;padding:12px 0 0 35px;background:url(/assets/ico_mail.png) no-repeat 0 50%;font:16px/16px 'PT Sans',sans-serif;color:#FFF}
+#div_contacts a{color:#FFF}
+#logo{float:left;width:230px;height:100px;margin:10px 10px 10px 35px;background:url(/assets/logo8.png) no-repeat 50% 50%}
+#logo_lnk{display:block;width:230px;height:100px}
+#header_r{float:right;width:330px;height:100px;margin:10px}
+#div_reg{width:300px;height:30px;margin-top:15px;padding:5px 35px 0 0;background:url(/assets/ico_man.png) right no-repeat;font:16px/16px 'PT Sans',sans-serif;color:#FFF;text-align:right}
+#div_reg a{color:#FFF}
+#div_cart{display:block;width:300px;height:30px;padding:5px 35px 0 0;background:url(/assets/ico_cart.png) right no-repeat;font:16px/16px 'PT Sans',sans-serif;color:#FFF;text-align:right}
+#topmenu{width:700px;height:36px;margin-top:6px;float:left}
+#search_line{float:right;width:280px;height:30px;margin-top:12px;text-align:right}
+.reg-dealer{display:block;text-align:right;color:#999ACA;font-size:18px;font-weight:bold;font-style:italic;border:none;padding-right:5px}
+#middle{width:100%;padding:0;height:1%;position:relative}
+#middle:after{content:'';clear:both}
+#container{width:100%;float:left;overflow:hidden}
+.content_wrapper{border:1px #555 dashed;padding:15px;background:#222;margin:15px 0 25px}
+#footer1{width:100%;height:420px;position:relative;overflow:hidden;background:url(/assets/bg_footer11_black.gif) repeat-x 50% 2px}
+#footer2{width:1000px;margin:0 auto;height:420px;/*background:url(/assets/bg_footer2_black.png) no-repeat bottom center;*/position:relative}
+font.tablebodytext{display:none}
+.dealer_status{display:inline-block;padding:0 5px;color:#FFF;background-color:green;border-radius:3px;font-size:12px;cursor:pointer;line-height:20px}
+a.color_tooltip span{display:none;padding:2px 3px;width:130px;border-radius:3px}
+a.color_tooltip:hover span{display:inline;position:absolute;width:150px;height:150px;margin-top:-215px;margin-left:-80px;background:#fff;border:1px solid #ccc;color:#6c6c6c}
+a.back_link{color:#E04472}
+#fpanel{position:fixed;width:40px;height:164px;left:0;top:50%;margin-top:-82px;background-color:rgba(255,255,255,0.5);border-radius:0 3px 3px 0}
+#fpanel table td{padding:1px!important}
+#bannertoppodlozhka{width:100%;margin:0 auto;height:80px;background:url(/upload/bannerroznica.jpg)}
+#bannertoppodlozhka{width:100%;margin:0 auto;height:80px;background:url(/upload/bannerroznicabg.jpg)}
+#bannertop{width:1000px;margin:0 auto;height:80px;background:url(/upload/bannercenterroznica2.jpg) no-repeat}
+#bannertop{width:1000px;margin:0 auto;height:80px;background:url(/upload/bannercenterroznica016.jpg) no-repeat}
+.footer-tbl {width:100%;}
+
+.counter-wrapper {
+	position: relative;
+	width: 100%;
+	height: 90px;
+	border-bottom: 1px solid white;
+	background: #222 url(/upload/counter/bg.gif) repeat;
+}
+.counter-wrapper .container {
+	text-align: center;
+	margin: 0 auto;
+	width: 100%;
+	height: 90px;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	background: url(/upload/counter/bg-gradient.png) no-repeat center;
+}
+	
+.counter-wrapper .container h2 {
+	margin: 0;
+	color: #eee;
+	-moz-text-shadow: 0 3px 3px #000000;
+	-webkit-text-shadow: 0 3px 3px #000000;
+	text-shadow: 0 3px 3px #000000;
+}
+	
+.counter-wrapper .container h2 {
+	font-size: 18px;
+	display: inline-block;
+	color: white;
+}
+.counter-wrapper .container h2 a {
+	color: white;
+}
+
+.counter-wrapper #CDT {
+	font-size: 30px;
+	color: #eee;
+	margin: 10px 0 0px;
+	font-weight: bold;
+	display: inline-block;
+}
+
+.counter-wrapper #CDT .number-wrapper {
+	margin: 10px;
+	-moz-box-shadow: 0 5px 8px #000000;
+	-webkit-box-shadow: 0 5px 8px #000000;
+	box-shadow: 0 5px 8px #000000;
+	position: relative;
+}
+
+.counter-wrapper #CDT .number {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	background: #000;
+	background-image: linear-gradient(bottom, #000000 2%, #3c3c3c 50%, #000000 100%);
+	background-image: -o-linear-gradient(bottom, #000000 2%, #3c3c3c 50%, #000000 100%);
+	background-image: -moz-linear-gradient(bottom, #000000 2%, #3c3c3c 50%, #000000 100%);
+	background-image: -webkit-linear-gradient(bottom, #000000 2%, #3c3c3c 50%, #000000 100%);
+	background-image: -ms-linear-gradient(bottom, #000000 2%, #3c3c3c 50%, #000000 100%);
+	-webkit-border-top-right-radius: 7px;
+	-webkit-border-bottom-right-radius: 0;
+	-webkit-border-bottom-left-radius: 0;
+	-webkit-border-top-left-radius: 0;
+	-moz-border-radius-topright: 7px;
+	-moz-border-radius-bottomright: 0;
+	-moz-border-radius-bottomleft: 0;
+	-moz-border-radius-topleft: 0;
+	border-top-right-radius: 7px;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+	border-top-left-radius: 0;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	padding: 0 12px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	border: 1px solid #555;
+	-moz-box-shadow: inset 0 4px 0 rgba(255, 255, 255, 0.2);
+	-webkit-box-shadow: inset 0 4px 0 rgba(255, 255, 255, 0.2);
+	box-shadow: inset 0 4px 0 rgba(255, 255, 255, 0.2);
+	-moz-text-shadow: 0 3px 3px #000000;
+	-webkit-text-shadow: 0 3px 3px #000000;
+	text-shadow: 0 3px 3px #000000;
+}
+	   
+.counter-wrapper #CDT .line {
+	position: absolute;
+	width: 100%;
+	height: 1px;
+	top: 52%;
+	left: 0;
+	background: #000;
+	-moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
+	-webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
+	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
+}
+.caption {
+   font-size: 12px;
+   position: absolute;
+   bottom: -30px;
+   left: 0;
+   text-align: center;
+   width: 100%;
+   color: #777;
+}

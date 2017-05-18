@@ -1,0 +1,31 @@
+/* -------------------- Sly Gallery for More_photo -------------------------- */
+/* Example wrapper */
+.wrap_section { position: relative; margin: 5px auto; padding-top:15px; width:754px; height:220px; border:1px dashed black; background-color:#f2f2f2; }
+.wrap_section .wrap { position: relative;  margin: 0 auto; width:740px; height:210px; }
+/* Frame */
+.wrap_section .wrap .frame { height: 210px; overflow: hidden; }
+.wrap_section .wrap .frame ul { list-style: none; margin: 0; padding: 0; height: 100%; font-size: 50px; }
+.wrap_section .wrap .frame ul li { float: left; width: 145px; height: 210px; margin: 0; padding: 0; cursor: pointer; }
+.wrap_section .wrap .frame ul li .item_cell { display:block; width: 104px; height: 200px;  margin: 0 auto; padding: 0; cursor: pointer; }
+.wrap_section .wrap .frame ul li .item_cell .item_image img { width:100px; height:150px; margin:0 auto; border:3px solid #dcdcdc; border-radius:0 2px 2px 2px; }
+.wrap_section .wrap .frame ul li .item_cell .item_image img:hover { }
+.wrap_section .wrap .frame ul li .item_cell .item_image_empty { width:100px; height:150px; margin:0 auto; border:3px solid #dcdcdc; border-radius:0 2px 2px 2px; background: url(/assets/images/logo_transp_sm.png) no-repeat 50% 50%;}
+.wrap_section .wrap .frame ul li .item_cell .item_image_empty  a{ display:block; width:100px; height:150px;}
+.wrap_section .wrap .frame ul li .item_cell .item_artikul_small{ display: inline-block; height:15px; padding:5px 10px 1px 10px; text-align:center; font: 12px/12px 'PT Sans', sans-serif; background: url(/assets/images/png_grad.png) repeat-x 50% 50%; color:#FFFFFF; border-radius: 3px 3px 0 0; }
+.wrap_section .wrap .frame ul li .item_cell .item_price{margin:3px 0; text-align: center; font: bold 14px/14px 'PT Sans', sans-serif; color:#333333;}
+/*.wrap_section .wrap .frame ul li .item_cell .item_buy{ background-color:green; text-align: center; font-size:12px;}*/
+
+.wrap_section .wrap .frame ul li.active { color: #fff; }
+/* Scrollbar */
+.wrap_section .scrollbar { margin: 0 0 1em 0; height: 10px; background: #ccc; line-height: 0; }
+.wrap_section .scrollbar .handle { width: 100px;  height: 100%; background: #292a33; cursor: pointer; }
+.wrap_section .scrollbar .handle .mousearea { position: absolute; top: -9px; left: 0; width: 100%; height: 20px; }
+
+
+.item_sale_sm {
+	position:absolute;
+	margin-top:10px;
+	width:98px;
+	height:22px;
+	background: red url(/assets/images/sale_sm.png) no-repeat;
+	}

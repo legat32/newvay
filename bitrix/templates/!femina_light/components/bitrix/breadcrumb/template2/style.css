@@ -1,0 +1,6 @@
+ul.breadcrumb-navigation { padding:0; margin:0; /*margin-bottom:10px;*/ list-style:none; font-size:100%;}
+ul.breadcrumb-navigation li { display:inline; background: url(/assets/images/arrow1.png) no-repeat left; margin-right:5px; padding-left:13px;}
+ul.breadcrumb-navigation li:first-child {padding-left:0; background-image:none;}
+ul.breadcrumb-navigation a { color:#333333;}
+ul.breadcrumb-navigation a:hover {color:#E83434;}
+ul.breadcrumb-navigation span {}

@@ -1,0 +1,9 @@
+ul.news {
+	
+}
+ul.news li {
+	margin:5px 15px;
+}
+ul.news li h3 a {
+	color:#999ACA;
+	}

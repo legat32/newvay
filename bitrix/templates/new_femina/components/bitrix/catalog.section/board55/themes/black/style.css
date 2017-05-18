@@ -1,0 +1,41 @@
+/* catalog.section */
+.bx_black.bx-section-desc{
+	border-left-color:#0083d1;
+}
+.bx_catalog_list_home.bx_black .bx_bt_button  				{
+	background:#D12A2D;
+	font-family: 'Circe-Light', Arial, sans-serif;
+	color:#fff;
+	display:inline-block;
+	border-radius:0px;
+	border: 1px solid #D12A2D;
+	text-align:center;
+	text-decoration:none;
+	font-size:13px;
+	cursor:pointer;
+	text-shadow: none;
+	text-transform: uppercase;
+}
+.bx_catalog_list_home.bx_black .bx_bt_button:hover  		{
+	background:white;
+	color:#D12A2D;
+}
+.bx_catalog_list_home.bx_black .bx_bt_button:active  		{
+	background:white;
+	color:#D12A2D;
+}
+
+/* scu_detail_size */
+.bx-retina .bx_catalog_list_home.bx_black .bx_item_detail_size ul li.bx_active .cnt{
+	-webkit-border-image: url(images/x2border_active.png) 2 stretch;
+	-moz-border-image: url(images/x2border_active.png) 2 stretch;
+	-o-border-image: url(images/x2border_active.png) 2 stretch;
+	border-image: url(images/x2border_active.png) 2 fill stretch;
+}
+/* scu_detail_scu */
+.bx-retina .bx_catalog_list_home.bx_black .bx_item_detail_scu .bx_scu ul li.bx_active .cnt{
+	-webkit-border-image: url(images/x2border_active.png) 2 stretch;
+	-moz-border-image: url(images/x2border_active.png) 2 stretch;
+	-o-border-image: url(images/x2border_active.png) 2 stretch;
+	border-image: url(images/x2border_active.png) 2 fill stretch;
+}

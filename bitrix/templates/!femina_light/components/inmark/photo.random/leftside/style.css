@@ -1,0 +1,4 @@
+div.photo-random{padding-bottom:10px}
+div.photo-random a{font:bold 14px/14px 'PT Sans',sans-serif;text-decoration:none;color:#333;margin-top:5px}
+div.photo-random a img{border-width:3px;border-style:solid;border-radius:3px;margin:10px 0}
+div.photo-random a img:hover{border-color:#FFF!important}

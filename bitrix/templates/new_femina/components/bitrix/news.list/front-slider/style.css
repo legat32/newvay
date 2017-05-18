@@ -1,0 +1,42 @@
+.front main .front-slider {
+	margin-top:10px;
+	margin-bottom:10px;
+	border:1px solid #666;
+}
+
+
+.front main .front-slider .slide img {
+  width: 100%;
+  height: auto;
+}
+
+.front main .front-slider .slick-dots {
+    display: block;
+    position: absolute;
+    z-index: 1000;
+    bottom: 3%;
+    left: 2%;
+
+	}
+.front main .front-slider .slick-dots li {
+	display: inline-block;
+	margin:7px;
+}
+.front main .front-slider .slick-dots li button {
+	background: rgba(255, 255, 255, 1);
+	/*border-radius: 5px;*/
+	width: 25px;
+	height: 25px;
+	color: white;
+	border: 0px solid white;
+	box-shadow: 1px 1px 5px black;
+	cursor: pointer;
+}
+.front main .front-slider .slick-dots li.slick-active button {
+	background: #b42e31;
+	color: #b42e31;
+}
+.front main .front-slider .slick-dots li button:hover {
+	background: #b42e31;
+	color: #b42e31;
+}

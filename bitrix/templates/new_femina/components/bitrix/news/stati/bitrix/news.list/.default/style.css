@@ -1,0 +1,13 @@
+ul.news {
+	font-size: 18px;
+	font-family: 'Circe-Light';
+}
+ul.news li {
+	margin:5px 15px;
+}
+ul.news li h3 a {
+	font-size: 20px;
+    font-family: 'Circe-Bold';
+    text-transform: uppercase;
+    text-decoration: none;
+}

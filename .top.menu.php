@@ -1,0 +1,53 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Главная", 
+		"/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"О компании", 
+		"/o-kompanii/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Каталог", 
+		"/catalog/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Распродажи", 
+		"/sale/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Сотрудничество", 
+		"/sotrudnichestvo.html", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Статьи", 
+		"/stati/", 
+		Array(), 
+		Array(), 
+		"IsModuleInstalled('idea') && COption::GetOptionString('eshop', 'useIdea', 'Y','ru') == 'Y'" 
+	),
+	Array(
+		"Контакты", 
+		"/kontakty.html", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

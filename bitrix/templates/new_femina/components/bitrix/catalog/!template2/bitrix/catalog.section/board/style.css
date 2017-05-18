@@ -1,0 +1,199 @@
+.catalog {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin-top: 35px;
+	/*
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: 35px;
+	*/
+}
+.catalog  div[id^="bx_"]{
+	width: 25%;
+	max-width: 305px;
+	border: 1px solid #fff;
+	padding: 13px;
+	box-sizing: border-box;
+}
+.catalog div[id^="bx_"]:hover{
+	border: 1px solid #000;
+}
+.catalog .item_body .item_img{
+	position: relative;
+}
+.catalog .item_body .item_img img{
+	width: 100%;
+	height: auto;
+}
+.catalog .item_body .action-label{
+	
+	
+}
+.catalog .item_body .item_img .action-label a{
+	position: absolute;
+	left: 15px;
+	bottom: 15px;
+	display: block;
+	line-height: 35px;
+	color:#b42e31;
+	min-width: 125px;
+	height: 35px;
+	border: 1px solid #b42e31;
+	background: #fff;
+	font-size: 17px;
+	text-transform: uppercase;
+	text-align: center;
+	text-decoration: none;
+	    font-family: 'Circe-Regular';
+	    padding: 0 20px;
+}
+.catalog > div:hover .item_body .item_img .action-label a{
+	background: #b42e31;
+	color:#fff;
+}
+.catalog .item_body .item_artikul{
+	font-size: 14px;
+	font-family: 'Circe-Light';
+}
+.item_name a{
+	font-size: 14px;
+	    font-family: 'Circe-Bold';
+	    color: #000;
+	    text-transform: uppercase;
+	    text-decoration: none;
+}
+.item_name a:hover{
+	color: #b42e31;
+}
+.item_img_blank img{
+	background: url('/bitrix/templates/new_femina/images/logo.png') center center no-repeat #eee;
+	background-size: 70% auto;
+}
+.item_price .price{
+	display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.item_price .price .price_type{
+	font-size: 14px;
+	font-family: 'Circe-Light';
+	text-transform: uppercase;
+	width: 43%;
+}
+.item_price .price .price-value{
+	font-size: 29px;
+}
+.item_price .price .register{
+	width: 100%;
+	display: block;
+	margin-top: 5px;
+}
+.item_price .price .register .buy-register{
+	display: block;
+	font-size: 21px;
+    font-family: 'Circe-Light';
+    height: 32px;
+    width: 200px;
+    margin: 0 auto;
+    line-height: 32px;
+    border: 1px solid #000;
+    text-align: center;
+    text-decoration:none;
+    background: #fff;
+    color: #000;
+    cursor: pointer;
+}
+.item_price .price .register .buy-register:hover{
+	background: #333;
+    color: #fff;
+}
+.catalog .page-navigation{
+	width: 100%;
+	max-width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border: 0;
+	padding: 0;
+	box-sizing: border-box;
+	margin-top: 80px;
+	padding-bottom: 14px;
+	padding-top: 18px;
+	border-top:1px solid #000;
+}
+.page-navigation .items_count{
+	font-size: 18px;
+	font-family: 'Circe-Light';
+}
+.page-navigation .items_count span{
+	font-family: 'Circe-Bold';
+}
+.page-navigation .catalog-show{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.page-navigation .catalog-show .show-value{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.page-navigation .catalog-show .show-value a{
+	font-size: 18px;
+	text-decoration: none;
+	color: #000;
+}
+.page-navigation .catalog-show .show-value a:first-child{
+	background:url('/bitrix/templates/new_femina/images/catalog-sort-item-bg.jpg') center right no-repeat;
+	padding-right: 12px;
+	margin-right: 12px;
+}
+.page-navigation .catalog-show .show-value a:hover{
+	text-decoration: underline;
+	color: #b42e31;
+}
+.page-navigation .catalog-show .show-value .prod_show_number_active{
+	color: #b42e31;
+}
+.page-navigation .catalog-show .title{
+	color: #000;
+	font-size: 18px;
+	font-family: 'Circe-Bold';
+	margin-right: 23px;
+}
+.page-navigation .inner-pagenavigation .modern-page-title{
+	display: none;
+}
+.page-navigation .inner-pagenavigation a,.page-navigation .inner-pagenavigation  .modern-page-current{
+	font-size: 18px;
+	text-decoration: none;
+	color: #000;
+	border:0;
+	background:url('/bitrix/templates/new_femina/images/catalog-sort-item-bg.jpg') center left no-repeat;
+	padding:0 0 0 10px;
+	margin:0 10px 0 0;
+}
+.page-navigation .inner-pagenavigation a:hover{
+	text-decoration: underline;
+	color: #b42e31;
+}
+.page-navigation .inner-pagenavigation  .modern-page-current{
+	color: #b42e31;
+}
+.page-navigation .modern-page-previous,.page-navigation .modern-page-next,.page-navigation .modern-page-first{
+	background: none !important;
+	border:0 !important;
+}
+@media (max-width: 1250px){
+	.catalog  div[id^="bx_"]{
+		width: 33%;
+	}
+}
+@media (max-width: 992px){
+	.catalog  div[id^="bx_"]{
+		width: auto;
+	}
+}

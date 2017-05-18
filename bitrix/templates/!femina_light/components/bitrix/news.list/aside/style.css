@@ -1,0 +1,115 @@
+.slick-aside {
+	margin: 0 auto 0px 0px !important;
+	width: 100% !important;
+	background: white;
+}
+/*
+.sideblock_title.slick-asided {
+	width:212px;
+	margin: 0 0 0 -1px;
+}
+*/
+.slick-aside .slick-slide {
+	text-align: center;
+	outline: none;
+	border: none;
+	padding: 0;
+}
+.slick-aside .slick-slide img {
+    margin: 0 auto;
+	width: 100%;
+	max-width:400px;
+	outline: none;
+	}
+.slick-aside .slick-slide p {
+	padding: 7px 5px;
+	font-size: 90%;
+}
+.slick-aside .slick-track {
+	background-color:#FFFFFF;
+}
+
+
+/* Dots */
+.slick-aside .slick-dotted.slick-slider
+{
+    margin-bottom: 30px;
+}
+
+.slick-aside .slick-dots
+{
+    position: absolute;
+    bottom: 8px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    height: 30px;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    z-index: 100;
+    background: rgba(255, 255, 255, 0.73);
+}
+.slick-aside .slick-dots li
+{
+    position: relative;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin: 0 5px;
+    padding: 0;
+    cursor: pointer;
+}
+.slick-aside .slick-dots li button
+{
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 6px;
+    height: 6px;
+    padding: 4px;
+	border-radius:6px;
+    cursor: pointer;
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: transparent;
+	background: white;
+	border:2px solid #cf2428;
+
+}
+.slick-aside .slick-dots li button:hover,
+.slick-aside .slick-dots li button:focus
+{
+    outline: none;
+	background: #cf2428;
+}
+.slick-aside .slick-dots li button:hover:before,
+.slick-aside .slick-dots li button:focus:before
+{
+    opacity: 1;
+}
+.slick-aside .slick-dots li button:before
+{
+    font-size: 6px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: '•';
+    text-align: center;
+    opacity: .25;
+    color: black;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.slick-aside .slick-dots li.slick-active button {
+	background: #cf2428;
+}
+.slick-aside .slick-dots li.slick-active button:before
+{
+    opacity: .75;
+    color: black;
+}

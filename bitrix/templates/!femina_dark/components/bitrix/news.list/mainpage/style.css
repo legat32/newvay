@@ -1,0 +1,23 @@
+ul.news {
+	
+}
+ul.news li{
+	display:block;
+	float:left;
+	width:300px;
+	margin:5px 20px;
+	/*border:1px solid white;*/
+}
+ul.news li:first-child {
+	margin-left:0;
+}
+div.date {
+	font-size:14px;
+	color:#db2359;
+	}
+.allnews_link {
+	color:#db2359;
+}
+li.post h3, li.post h3 a {
+	color:#FFFFFF;
+	}

@@ -1,0 +1,19 @@
+html,body,div,img,ul,li,table{margin:0;padding:0;border:0;outline:0!important;font-size:100%;vertical-align:baseline;background:transparent}
+ol,ul{list-style:none}
+:focus{outline:none!important}
+table{border-collapse:collapse;border-spacing:0}
+body{font:14px Arial,sans-serif}
+a{color:#007acf;cursor:pointer}
+a:hover{color:#e83434}
+a img{border:none}
+p{font-size:100%;color:#333;margin:10px 0}
+h1{font:bold 18px/20px 'PT Sans',sans-serif;padding:0;text-transform:uppercase}
+h2{font:bold 16px/18px 'PT Sans',sans-serif;text-transform:uppercase;padding:5px 0}
+.managers li{margin:15px 0}
+.managers .person{font-size:14px;font-weight:bold;color:#999ACA}
+.newyear_scroll{color:#dd3163;font-size:16px;font-weight:bold;text-shadow:2px 2px 5px #C5C5C5}
+.errortext{display:block;padding:3px;padding-left:60px;margin:0;color:#333!important;font-weight:bold;background-color:#FCC;overflow:visible}
+.notetext{display:block;padding:10px;margin:10px 0;padding-left:60px;border-top:5px solid #090;border-bottom:5px solid #090;color:#333!important;font-weight:bold;background:#CFC url(/assets/images/ico_ok.png) no-repeat 15px 7px}
+.note{display:block;padding:10px;margin:10px 0;padding-left:60px;border-top:5px solid #CCC;border-bottom:5px solid #CCC;color:#333!important;font-weight:bold;background:#DDD url(/assets/images/ico_warning.png) no-repeat 15px 7px}
+.list{margin:5px 0 5px 20px;padding:0;list-style:disc}
+.list li{margin:5px 0}

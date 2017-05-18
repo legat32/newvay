@@ -1,0 +1,6 @@
+.files {margin-bottom:10px; border-bottom:1px dashed gray; padding-bottom:10px;}
+.files:last-child { border-bottom: none;}
+
+input[type=file] {
+	border: none !important;
+	}

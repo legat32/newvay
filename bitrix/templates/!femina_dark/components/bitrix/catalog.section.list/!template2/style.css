@@ -1,0 +1,7 @@
+.catalog-section-list{float:left}
+.catalog-section-list ul li,.left_ul,.right_ul{display:block;width:185px;float:left;margin-right:10px}
+.left_ul{margin-left:20px}
+.catalog-section-list ul li ul li{display:block;float:none;border:none}
+.catalog-section-list ul li a,ul.left_ul a,ul.right_ul li a{font-size:120%;text-transform:uppercase;color:#66f}
+.catalog-section-list ul li ul,ul.left_ul li ul,ul.right_ul li ul{margin-top:5px}
+.catalog-section-list ul li ul li a,ul.left_ul li ul li a,ul.right_ul li ul li a{text-transform:none;color:#FFF;font-size:100%}

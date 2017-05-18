@@ -1,0 +1,15 @@
+div.catalog-section  h2 a {
+	font: bold 16px/16px 'PT Sans', sans-serif;
+	text-transform: uppercase;
+	color:#999ACA;
+	}
+div.catalog-section ul {
+	margin-left:20px;
+	padding-left:20px;
+	}
+div.catalog-section a {
+	color:#FFF;
+	}
+div.catalog-section ul>li:before {
+	content: "- ";
+	}

@@ -1,0 +1,204 @@
+
+
+/*Table*/
+table.sale_basket_basket,table.bx_ordercart_order_sum{
+width: 100%;
+border: 0;
+text-align: left;
+vertical-align: top;
+}
+
+/*Table head*/
+table.sale_basket_basket th{
+	font-size: 18px;
+	text-transform: uppercase;
+	vertical-align: middle;
+	font-family: 'Circe-Bold';
+	border-bottom:1px solid #000;
+	height: 55px;
+	width: 17%;
+	text-align: center;
+
+}
+table.sale_basket_basket tr th:nth-child(1), 
+table.sale_basket_basket tr th:nth-child(2), 
+table.sale_basket_basket tr th:nth-child(3) {
+	text-align:left;
+}
+table.sale_basket_basket td{
+	vertical-align: top;
+	font-family: 'Circe-Light';
+	font-size: 18px;
+	padding: 15px 3px;
+	text-align:center;
+}
+table.sale_basket_basket tr td:nth-child(1), 
+table.sale_basket_basket tr td:nth-child(2), 
+table.sale_basket_basket tr td:nth-child(3) {
+	text-align:left;
+}
+
+table.sale_basket_basket .products{
+	width: 31%;
+}
+table.sale_basket_basket .products-img{
+	width: 9%;
+	padding-right: 10px;
+	box-sizing: border-box;
+}
+table.sale_basket_basket .count{
+	width: 9%;
+}
+table.bx_ordercart_order_sum .itogo{
+	border-top:1px solid #000;
+	
+}
+table.bx_ordercart_order_sum .itog{
+	width: 17%;
+	font-family: 'Circe-Bold';
+	font-size: 18px;
+	padding-top: 15px;
+}
+table.bx_ordercart_order_sum .ruquered-message{
+	font-family: 'Circe-Light';
+	font-size: 18px;
+	padding-top: 15px;
+}
+table.bx_ordercart_order_sum .ruquered-message span{
+	color: red;
+	font-family: 'Circe-Bold';
+}
+table.bx_ordercart_order_sum .price{
+	width: 9%;
+	font-family: 'Circe-Bold';
+	font-size: 18px;
+	padding-top: 15px;
+	white-space: nowrap;
+}
+table.sale_basket_basket .products strong{
+	font-family: 'Circe-Regular';
+	font-size: 18px;
+}
+table.sale_basket_basket .products .size-color{
+	font-family: 'Circe-Light';
+	font-size: 16px;
+	color: #333;
+	margin-top: 10px;
+}
+table.sale_basket_basket .product-price{
+	font-size: 18px;
+	font-family: 'Circe-Bold';
+}
+table.sale_basket_basket .product-price .type_price{
+	font-family: 'Circe-Light';
+	font-size: 16px;
+}
+.old_price{
+	font-size:14px;
+	color: #999;
+	font-family: 'Circe-Light'; 
+}
+table.sale_basket_basket .quantity{
+}
+table.sale_basket_basket .itogo{
+	border-top:1px solid #000;
+	border-bottom:1px solid #000;
+	height: 55px;
+
+	
+}
+table.sale_basket_basket .itogo td{
+	padding: 0;
+	vertical-align: middle;
+}
+table.sale_basket_basket img{
+	display: block;
+}
+
+/* Table cells and heads*/
+table.sale_basket_basket th, table.sale_basket_basket td{
+	
+}
+
+.item_img_blank,.item_img {
+	  width: 84px;
+    height: 120px;
+     background: url(/bitrix/templates/new_femina/images/logo.png) center center no-repeat;
+    background-size: 70% auto;
+    border: 1px solid #E6E6E6;
+}
+.item_img{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+form[name="basket_form"] [type="submit"] {
+    font-size: 21px;
+    font-family: 'Circe-Light';
+    height: 32px;
+    line-height: 32px;
+    width: 174px;
+    border: 1px solid #000;
+    background: #fff;
+    color: #000;
+    cursor: pointer;
+    margin: 0 0px 0 15px;
+}
+form[name="basket_form"] [type="submit"]:hover{
+    background: #333;
+    color: #fff;
+}
+form[name="basket_form"] .basket-submit{
+	text-align: right;
+}
+@media (max-width: 992px){
+	table.sale_basket_basket th{
+		font-size: 15px;
+		padding: 0 3px;
+		height: 50px;
+	}
+	table.sale_basket_basket .products strong{
+		font-size: 18px;
+	}
+	table.sale_basket_basket td{
+		padding: 5px 3px;
+	}
+	table.sale_basket_basket .count{
+		white-space: nowrap;
+	}
+	table.sale_basket_basket .quantity{
+		text-align: center;
+	}
+}
+@media (max-width: 800px){
+
+	table.sale_basket_basket th:nth-child(3),table.sale_basket_basket td:nth-child(3){
+		display: none;
+	}
+	table.sale_basket_basket .products strong{
+		font-size: 16px;
+	}
+	table.sale_basket_basket td{
+		padding: 4px 2px;
+		font-size: 16px;
+	}
+}
+@media (max-width: 700px){
+	table.sale_basket_basket th:nth-child(4),table.sale_basket_basket td:nth-child(4){
+		display: none;
+	}
+	table.sale_basket_basket td,table.sale_basket_basket th{
+		font-size: 14px;
+	}
+	table.sale_basket_basket .products strong{
+		font-size: 14px;
+	}
+}
+@media (max-width: 600px){
+	
+}
+@media (max-width: 480px){
+	table.sale_basket_basket th:nth-child(1),table.sale_basket_basket td:nth-child(1){
+		display: none;
+	}
+}

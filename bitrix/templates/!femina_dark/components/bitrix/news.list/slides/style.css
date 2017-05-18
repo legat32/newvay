@@ -1,0 +1,71 @@
+#akc_slider{position:relative;margin:25px 0 10px}
+#akc_slider .frame{height:500px;line-height:500px;overflow:hidden}
+#akc_slider .frame ul{list-style:none;margin:0;padding:0;height:100%;font-size:50px}
+#akc_slider .frame ul li{float:left;width:227px;height:100%;margin:0 1px 0 0;padding:0;background:#333;color:#ddd;text-align:center;position:relative;}
+#akc_slider .frame ul li.active{color:#fff;background:#a03232}
+#akc_slider .scrollbar{margin:0 0 1em;height:2px;background:#ccc;line-height:0}
+#akc_slider .scrollbar .handle{width:100px;height:100%;background:#292a33;cursor:pointer} 
+#akc_slider .scrollbar .handle .mousearea{position:absolute;top:-9px;left:0;width:100%;height:20px}
+#akc_slider .pages{list-style:none;margin:10px 0;padding:0;text-align:center}
+#akc_slider .pages li{display:inline-block;width:14px;height:14px;margin:0 4px;text-indent:-999px;border-radius:10px;cursor:pointer;overflow:hidden;background:#fff;box-shadow:inset 0 0 0 1px rgba(0,0,0,.2)}
+#akc_slider .pages li:hover{background:#aaa}
+#akc_slider .pages li.active{background:#666}
+#akc_slider .controls{margin:25px 0;text-align:center}
+#akc_slider .oneperframe{height:400px;line-height:400px}
+#akc_slider .oneperframe ul li{width:1000px}
+#akc_slider .oneperframe ul li.active{background:#333}
+
+.linkWoman, .linkChildren {
+	display: block;
+	position: absolute;
+	width: 270px;
+	color: #FFFFFF;
+	font-size: 18px;
+	line-height: 20px;
+	padding: 7px;
+	text-decoration: none;
+	border-radius: 12px;
+}
+
+.linkWoman:hover, .linkChildren:hover {
+	color: #FFFFFF;
+}
+
+.linkWoman {
+	bottom: 7px;
+	left: 130px;
+	background-color: #7475AC;
+}
+
+.linkWoman:hover {
+	background-color: #5254AB;
+}
+
+.linkChildren {
+	bottom: 7px;
+	right: 280px;
+	background-color: #dd3163;
+}
+
+.linkChildren:hover {
+	background-color: #D0164C;
+}
+
+.linkCRM {
+	display: block;
+    position: absolute;
+    top: 340px;
+    left: 475px;
+    /* width: 300px; */
+    /* height: 40px; */
+    background: white;
+    color: #cf1a23;
+    font-size: 16px;
+    padding: 5px 20px;
+    margin: 0;
+    line-height: 18px;
+    border-radius: 10px;
+    border: 3px solid #cf1a23;
+    font-family: "PT Sans", sans-serif;
+    text-transform: uppercase;
+	}

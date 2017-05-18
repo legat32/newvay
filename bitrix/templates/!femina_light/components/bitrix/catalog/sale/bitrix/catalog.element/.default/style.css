@@ -1,0 +1,421 @@
+.item_wrapper {
+	width:100%;
+	min-height:500px;
+}
+.item_images { 
+	width:350px;
+	min-height:500px;
+	float:left;
+	position: relative;
+	}
+.item_artikul {
+	display:inline-block;
+	width:auto;
+	height:20px;
+	padding:5px 10px 0 10px;
+	text-align:center;
+	background: #e9e9e9;
+	font: bold 13px/13px 'PT Sans', sans-serif;
+	color:#333333;
+	border-radius: 3px 3px 0 0;
+}
+.item_detail_img {
+
+}
+.item_img {
+	display:block;
+	text-align:center;
+	border:8px solid #e9e9e9;
+	border-radius:0 3px 3px 3px;
+	}
+.item_img_blank {
+	display:block;
+	width:333px;
+	height:500px;
+	text-align:center;
+	border:8px solid #e9e9e9;
+	border-radius:0 3px 3px 3px;
+	background: url(/assets/images/logo_transp.png) no-repeat 50% 50%;
+	}
+	
+.item_season, .item_sale, .item_utsenka  {
+	position:absolute;
+	top:45px;
+	left:0;
+	width:120px;
+	color:#FFF;
+	font-family: Arial, serif;
+	font-size: 16px;
+	line-height: 17px;
+	text-align: center;
+	text-decoration: none;
+	}
+.item_sale {
+	height:25px;
+	background: #51b31d url(/assets/images/blik200.png) no-repeat 0 -33px;
+	padding-top:7px;
+	text-shadow: 1px 1px 2px #525252;
+	}
+.item_season {
+	height:40px;
+	background: #ffa800 url(/assets/images/blik200.png) no-repeat 0 -29px;
+	padding-top:3px;
+	text-shadow: 1px 1px 2px #d68f06;
+	}
+.item_utsenka {
+	height:40px;
+	background: #dd3163 url(/assets/images/blik200.png) no-repeat 0 -29px;
+	padding-top:3px;
+	text-shadow: 1px 1px 2px #d68f06;
+	}
+.item_season:hover , .item_sale:hover {
+	color: #FFF;
+	text-decoration: none;
+	}
+	
+/*
+.item_sale {
+	position: absolute;
+	margin-top:20px;
+	width:120px;
+	height:27px;
+	background: url(/assets/images/sale.png) no-repeat;
+	}
+*/
+	
+.item_more_files {
+	height:auto;
+	margin-top:15px;
+	}
+.item_descr {
+	width:390px;
+	float:right;
+	}
+.item_descr h1 {
+	font: bold 20px/20px 'PT Sans', sans-serif;
+	text-transform:uppercase;
+	padding:10px 0 0 0;
+	border-bottom: none;
+	}
+.sostav {
+	height:50px;
+	}
+.sostav_label {
+	font-weight:bold;
+	}
+.sostav_value {
+	display:inline-block;
+	padding-left:15px;
+	}
+	
+.offers_wrapper {
+	min-height:300px;
+	}
+.offer_select {
+	border-top:1px dashed #9d3a61;
+	border-bottom:1px dashed #9d3a61;
+	padding: 15px 0;
+
+	}
+	
+#color_title, #size_title {
+	font-weight:bold;
+	}
+.color_vars {
+	padding-left:15px;
+	margin-bottom:10px;
+	}
+.size_vars {
+	padding-left:15px;
+	}
+
+
+
+
+
+.color_var {
+	display:block;
+	float:left;
+	overflow:hidden;
+	width:34px;
+	height:34px;
+	margin:3px;
+	padding:0;
+	border:1px solid #CCCCCC;
+	}
+.color_img {
+	display:block;
+	position:absolute;
+	width:30px;
+	height:30px;
+	border: 2px solid #FFFFFF;
+	}
+.color_var .no-ex {
+	display:block;
+	position:absolute;
+	width:34px;
+	height:34px;
+	background: url(/assets/images/no-ex1.png) no-repeat 50% 50%;
+	}
+
+
+
+
+
+.offer_select div .exists a .no-ex,
+.offer_select div .exists .no-ex {
+	display:none;
+	}
+
+
+
+
+.size_var {
+	display:block;
+	float:left;
+	overflow:hidden;
+	width:34px;
+	height:24px;
+	margin:3px;
+	padding:0;
+	border:1px solid #CCCCCC;
+	}
+.size_val {
+	display:block;
+	position:absolute;
+	width:30px;
+	height:12px;
+	padding:3px 0 5px 0;
+	border: 2px solid #FFFFFF;
+	background-color:#f2f2f2;
+	text-align:center;
+	font: bold 13px/13px 'PT Sans', sans-serif;
+	color:#999999;
+	overflow:hidden;
+	line-height:15px;
+	}
+.size_var .no-ex {
+	display:block;
+	position:absolute;
+	width:34px;
+	margin-top:2px;
+	height:19px;
+	background: url(/assets/images/no-ex1.png) no-repeat 50% 50%;
+	}
+	
+.prim {
+	color:#666666;
+	font-size:10px;
+	margin-top:5px;
+	text-align:right;
+	}
+.prim .no-ex {
+	display:inline-block;
+	width:15px;
+	height:12px;
+	background: url(/assets/images/no-ex1.png) no-repeat 50% 50%;
+	border:1px solid #DDDDDD;
+	}
+	
+
+
+	
+	
+	
+.size_var.exists:hover, .color_var.exists:hover {
+	box-shadow:1px 1px 1px gray;
+	}
+.offer_select .active { 
+	margin: 1px;
+	border:3px solid black !important;
+	}
+.offer_select .no-exists {
+	background-color:red;
+	}
+.offer_select .exists {
+	cursor:pointer;
+	/background-color:yellow;
+	/border:1px solid green;
+	}
+.color_var .exists {
+	}
+
+.offer_block {
+	padding-top:15px;
+	display: none;
+	}
+
+
+	
+.offer_color, .offer_size {
+	font-size:10px;
+	line-height:12px;
+	margin-left:15px;
+	}
+
+.limit_block {
+	position:relative;
+	margin-top:10px;
+	width:200px;
+	height:70px;
+}
+.limit_ico {
+	position:absolute;
+	width:25px;
+	height:25px;
+	background:url(/assets/images/ico_sprite.png) 0 -100px no-repeat;
+	}
+.limit_text {
+	position:absolute;
+	width:200px;
+	height:auto;
+	top:5px;
+	left:15px;
+	font-size:10px;
+	line-height:12px;
+	margin:5px;
+	padding:5px;
+	background-color:#EEEEEE;
+	}
+
+
+	
+	
+.buy_panel {
+	height:50px;
+	}
+.price_block {
+	float:left;
+	}
+.buy_block {
+	width:170px;
+	float:right;
+	}
+.price_title {
+	font: bold 16px/20px 'PT Sans', sans-serif;
+	color: #333333;
+	}
+.price_value {
+	font: bold 20px/20px 'PT Sans', sans-serif;
+	color: #e04472;
+	}
+.buy_block .quant {
+	display:block;
+	float:right;
+	width:40px;
+	border:1px solid #999;
+	height:21px;
+	text-align:center;
+	margin:3px;
+	}
+.count {
+	float:right;
+	margin-top:10px !important;
+	}
+.btn_minus {
+	display: block;
+	float:right;
+	width: 26px;
+	height: 23px;
+	background: url(/assets/images/btn_minus.png) no-repeat;
+	margin:3px;
+	}
+.btn_plus {
+	display: block;
+	float:right;
+	width: 26px;
+	height: 23px;
+	background: url(/assets/images/btn_plus.png) no-repeat;
+	margin:3px;
+	}
+.btn_plus:hover, .btn_minus:hover {
+	box-shadow:1px 1px 1px gray;
+	} 
+input.btn_buy {
+	display:block !important;
+	width:93px !important;
+	height:37px !important;
+	margin:5px 70px !important;
+	cursor: pointer !important;
+	background: url(/assets/images/btn_buy.png) 0 -37px no-repeat !important;
+	border: none !important;
+	}
+input.btn_buy:hover {
+	background: url(/assets/images/btn_buy.png) 0 0 no-repeat !important;
+	}
+	
+	
+	
+	
+.links {
+	display: block;
+	margin-top:15px;
+	}
+.links span {
+	display:block;
+	float:left;
+	width:25px;
+	height:25px;
+	margin-right:10px;
+	margin-top:5px;
+	}
+.links a {
+	display:block;
+	float:none;
+	height:25px;
+	padding-top:8px;
+	color:#333333;
+	line-height: 33px;
+	}
+.link_ask { background:url(/assets/images/ico_sprite.png) 0 0 no-repeat; }
+.link_order { background:url(/assets/images/ico_sprite.png) 0 -25px no-repeat; }
+.link_sizes { background:url(/assets/images/ico_sprite.png) 0 -50px no-repeat; }
+.link_colors { background:url(/assets/images/ico_sprite.png) 0 -50px no-repeat; }
+.link_print { background:url(/assets/images/ico_sprite.png) 0 -75px no-repeat; }
+
+
+/* -------------------- AJAX page for NALICHIE ----------------------------- */
+.nalichie {
+	background-color:#FFFFFF;
+	}
+.nalichie tr td {
+	padding:5px 10px;
+	border:1px solid #FFFFFF;
+	line-height:35px;
+	text-align:center;
+	background-color: #ECECEC;
+	}
+.nalichie tr td:first-child {	
+	text-align:left;
+	}
+.nalichie tr:first-child td {
+	background-color: #e5e5e5;
+	font-weight:bold;
+	}
+.jx_color_img {
+	width:34px;
+	height:34px;
+	border: 1px solid #CCC;
+	float:left;
+	margin-right:10px;
+	}
+.jx_color_img img{
+	width:30px;
+	height:30px;
+	border: 2px solid #FFFFFF;
+	}
+
+/* -------------------- Sly Gallery for More_photo -------------------------- */
+/* Example wrapper */
+.wrap_more { position: relative; background-color: #f2f2f2; margin: 5px auto; padding-top:8px; width:340px; height:170px; border:1px dashed black; }
+.wrap_more .wrap { position: relative;  margin: 0 auto; width:330px; height:160px; }
+/* Frame */
+.wrap_more .wrap .frame { height: 152px; overflow: hidden; }
+.wrap_more .wrap .frame ul { list-style: none; margin: 0; padding: 0; height: 100%; font-size: 50px; }
+.wrap_more .wrap .frame ul li { float: left; width: 110px; height: 152px; margin: 0; padding: 0; text-align: center; cursor: pointer; }
+.wrap_more .wrap .frame ul li img { width:100px; height:150px; background-color:red; border:1px solid #6666cc; border-radius:2px; }
+.wrap_more .wrap .frame ul li.active { color: #fff; }
+/* Scrollbar */
+.wrap_more .scrollbar { margin: 0 0 1em 0; height: 10px; background: #ccc; line-height: 0; }
+.wrap_more .scrollbar .handle { width: 100px;  height: 100%; background: #292a33; cursor: pointer; }
+.wrap_more .scrollbar .handle .mousearea { position: absolute; top: -9px; left: 0; width: 100%; height: 20px; }

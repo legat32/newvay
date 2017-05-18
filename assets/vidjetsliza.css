@@ -1,0 +1,9 @@
+.sliza_widget_btn_1.sliza_widget_btn_auth_ok .sliza_widget_btn_ovr, .sliza_widget_btn_2.sliza_widget_btn_auth_ok .sliza_widget_btn_ovr {
+    background: url('https://sliza.ru/core/tpl/widget/sliza_w_btn2_v2.png') no-repeat 2px 0 !important;
+}
+
+.sliza_widget_btn_1 .sliza_widget_btn_ovr, .sliza_widget_btn_2 .sliza_widget_btn_ovr {
+    background: url('https://sliza.ru/core/tpl/widget/sliza_w_btn2_v2.png') no-repeat 2px 0 !important;
+    transition: background 0.2s ease 0s !important;
+    border-radius: 0 5px 5px 0 !important;
+}

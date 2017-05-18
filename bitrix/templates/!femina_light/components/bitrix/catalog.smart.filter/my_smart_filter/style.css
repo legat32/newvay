@@ -1,0 +1,27 @@
+.smFilter_div { border:1px dashed #ac496e; background-color:#f4f4f4; position:relative; padding:5px 10px; margin-bottom:15px;}
+.smFilter_name { background: url(/assets/ico_filter.png) no-repeat left; padding-left:30px; padding-top:5px; font-weight:bold; min-height:25px;}
+
+
+.smFilter_COLOR {float:left; width:310px; height:25px;}
+.smFilter_price {float:left; width:250px; height:25px;}
+.smFilter_RASPRODAZHA {float:right; width:100px; height:25px;}
+.smFilter_SIZE {width:100%; margin-top:10px; height:auto; }
+
+select.lvl2 {width:200px;}
+
+.btn {
+	height:20px;
+	font-size:11px;
+	border:1px solid #c76288;
+	background-color:#7c2b4a;
+	color:#FFFFFF;
+	cursor:pointer;
+	padding:0 8px;
+	}
+.btn:hover {
+	border-color:#FFFFFF;
+	}
+
+.posabo {margin:10px 0 5px 0; float:left;}
+
+.modef {margin:9px 0 0 14px; padding:2px 10px 0 2px; border:1px dashed red; border-radius:3px;  float:left;}

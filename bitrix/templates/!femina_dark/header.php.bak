@@ -1,0 +1,196 @@
+<?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
+IncludeTemplateLangFile(__FILE__);
+$wizTemplateId = COption::GetOptionString("main", "wizard_template_id", "eshop_vertical", SITE_ID);
+CUtil::InitJSCore();
+CJSCore::Init(array("jquery"));
+$curPage = $APPLICATION->GetCurPage(true);
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<?=LANGUAGE_ID?>" lang="<?=LANGUAGE_ID?>">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<link rel="shortcut icon" type="image/x-icon" href="<?=SITE_TEMPLATE_PATH?>/favicon.ico" />
+	<?//$APPLICATION->ShowHead();
+	echo '<meta http-equiv="Content-Type" content="text/html; charset='.LANG_CHARSET.'"'.(true ? ' /':'').'>'."\n";
+	$APPLICATION->ShowMeta("robots", false, true);
+	$APPLICATION->ShowMeta("keywords", false, true);
+	$APPLICATION->ShowMeta("description", false, true);
+	$APPLICATION->ShowCSS(true, true);
+	?>
+	<link rel="stylesheet" type="text/css" href="<?=CUtil::GetAdditionalFileURL(SITE_TEMPLATE_PATH."/colors.css")?>" />
+	<?if (strpos($_SERVER['HTTP_USER_AGENT'], "MSIE") && !strpos($_SERVER['HTTP_USER_AGENT'], "MSIE 10.0")):?>
+	<link rel="stylesheet" type="text/css" href="<?=CUtil::GetAdditionalFileURL(SITE_TEMPLATE_PATH."/ie.css")?>"/>
+	<?endif?>
+	<?
+	$APPLICATION->ShowHeadStrings();
+	$APPLICATION->ShowHeadScripts();
+	
+	$APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH."/js/slides.min.jquery.js");
+	$APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH."/script.js");
+	$APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH."/js/jquery.carouFredSel-5.6.4-packed.js");
+	$APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH."/js/jquery.cookie.js");
+	$APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH."/js/jquery.slideViewerPro.1.5.js");
+	$APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH."/js/jquery.timers.js");
+	if ($wizTemplateId == "eshop_horizontal"):
+		$APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH."/js/bx.topnav.js");
+		$APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH."/js/hnav.js");
+	endif;
+	?>
+	<title><?$APPLICATION->ShowTitle()?></title>
+
+	<!--[if IE 8]>
+  <style type="text/css">
+   #horizontal-multilevel-menu { margin-top:6px !important;}
+  </style>
+  <![endif]-->
+	
+		<!--[if IE]>
+        <style type="text/css">
+               #div_phones { letter-spacing:-1px; }
+        </style>
+        <![endif]-->
+
+	<!--[if lt IE 7]>
+	<style type="text/css">
+		#compare {bottom:-1px; }
+		div.catalog-admin-links { right: -1px; }
+		div.catalog-item-card .item-desc-overlay {background-image:none;}
+	</style>
+	<![endif]-->
+
+	<!--[if IE]>
+	<style type="text/css">
+		#fancybox-loading.fancybox-ie div	{ background: transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='<?=SITE_TEMPLATE_PATH?>/js/fancybox/fancy_loading.png', sizingMethod='scale'); }
+		.fancybox-ie #fancybox-close		{ background: transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='<?=SITE_TEMPLATE_PATH?>/js/fancybox/fancy_close.png', sizingMethod='scale'); }
+		.fancybox-ie #fancybox-title-over	{ background: transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='<?=SITE_TEMPLATE_PATH?>/js/fancybox/fancy_title_over.png', sizingMethod='scale'); zoom: 1; }
+		.fancybox-ie #fancybox-title-left	{ background: transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='<?=SITE_TEMPLATE_PATH?>/js/fancybox/fancy_title_left.png', sizingMethod='scale'); }
+		.fancybox-ie #fancybox-title-main	{ background: transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='<?=SITE_TEMPLATE_PATH?>/js/fancybox/fancy_title_main.png', sizingMethod='scale'); }
+		.fancybox-ie #fancybox-title-right	{ background: transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='<?=SITE_TEMPLATE_PATH?>/js/fancybox/fancy_title_right.png', sizingMethod='scale'); }
+		.fancybox-ie #fancybox-left-ico		{ background: transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='<?=SITE_TEMPLATE_PATH?>/js/fancybox/fancy_nav_left.png', sizingMethod='scale'); }
+		.fancybox-ie #fancybox-right-ico	{ background: transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='<?=SITE_TEMPLATE_PATH?>/js/fancybox/fancy_nav_right.png', sizingMethod='scale'); }
+		.fancybox-ie .fancy-bg { background: transparent !important; }
+		.fancybox-ie #fancy-bg-n	{ filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='<?=SITE_TEMPLATE_PATH?>/js/fancybox/fancy_shadow_n.png', sizingMethod='scale'); }
+		.fancybox-ie #fancy-bg-ne	{ filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='<?=SITE_TEMPLATE_PATH?>/js/fancybox/fancy_shadow_ne.png', sizingMethod='scale'); }
+		.fancybox-ie #fancy-bg-e	{ filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='<?=SITE_TEMPLATE_PATH?>/js/fancybox/fancy_shadow_e.png', sizingMethod='scale'); }
+		.fancybox-ie #fancy-bg-se	{ filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='<?=SITE_TEMPLATE_PATH?>/js/fancybox/fancy_shadow_se.png', sizingMethod='scale'); }
+		.fancybox-ie #fancy-bg-s	{ filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='<?=SITE_TEMPLATE_PATH?>/js/fancybox/fancy_shadow_s.png', sizingMethod='scale'); }
+		.fancybox-ie #fancy-bg-sw	{ filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='<?=SITE_TEMPLATE_PATH?>/js/fancybox/fancy_shadow_sw.png', sizingMethod='scale'); }
+		.fancybox-ie #fancy-bg-w	{ filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='<?=SITE_TEMPLATE_PATH?>/js/fancybox/fancy_shadow_w.png', sizingMethod='scale'); }
+		.fancybox-ie #fancy-bg-nw	{ filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='<?=SITE_TEMPLATE_PATH?>/js/fancybox/fancy_shadow_nw.png', sizingMethod='scale'); }
+	</style>
+	<![endif]-->
+	<script type="text/javascript">if (document.documentElement) { document.documentElement.id = "js" }</script>
+	<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=cyrillic,latin' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+<div id="panel">
+	<?$APPLICATION->ShowPanel();?>
+</div>
+<div id="top">
+	<div id="header">
+		<div id="header_l">
+			<div id="div_phones"><span id="kod">(495)</span> 955-79-08, 955-78-88, 502-90-99</div>
+			<div id="div_contacts"><a href="/kontakty.html">Контактная информация</a> / <a href="/ask.html">Задать вопрос</a></div>
+		</div>
+		<div id="logo"><a id="logo_lnk" href="/"></a></div>
+		<div id="header_r">
+			<div id="div_reg">
+				<?$APPLICATION->IncludeComponent(
+					"bitrix:main.include",
+					"",
+					Array(
+						"AREA_FILE_SHOW" => "file",
+						"PATH" => "/include/cabinet.php",
+						"EDIT_TEMPLATE" => ""
+					),
+				false
+				);?>
+			</div>
+			<div id="div_cart">
+				<?$APPLICATION->SetTitle(""); ?><?$APPLICATION->IncludeComponent("bitrix:sale.basket.basket.small", "topright", Array(
+	"PATH_TO_BASKET" => "/personal/basket.php",	// Страница корзины
+	"PATH_TO_ORDER" => "/personal/order.php",	// Страница оформления заказа
+	),
+	false
+);?>
+			</div>
+
+		</div>
+		<div class="clear"></div>
+		<div id="topmenu"> 
+			<?$APPLICATION->IncludeComponent("bitrix:menu", "horizontal_multilevel1", array(
+				"ROOT_MENU_TYPE" => "top",
+				"MENU_CACHE_TYPE" => "N",
+				"MENU_CACHE_TIME" => "3600",
+				"MENU_CACHE_USE_GROUPS" => "Y",
+				"MENU_CACHE_GET_VARS" => array(
+				),
+				"MAX_LEVEL" => "2",
+				"CHILD_MENU_TYPE" => "left",
+				"USE_EXT" => "N",
+				"DELAY" => "N",
+				"ALLOW_MULTI_SELECT" => "N"
+				),
+				false
+			);?>
+		</div> 
+		<div id="search_line">
+			<?$APPLICATION->IncludeComponent("bitrix:search.title", "template1", Array(
+				"NUM_CATEGORIES" => "1",	// Количество категорий поиска
+				"TOP_COUNT" => "5",	// Количество результатов в каждой категории
+				"ORDER" => "date",	// Сортировка результатов
+				"USE_LANGUAGE_GUESS" => "Y",	// Включить автоопределение раскладки клавиатуры
+				"CHECK_DATES" => "N",	// Искать только в активных по дате документах
+				"SHOW_OTHERS" => "N",	// Показывать категорию "прочее"
+				"PAGE" => "#SITE_DIR#search/index.php",	// Страница выдачи результатов поиска (доступен макрос #SITE_DIR#)
+				"CATEGORY_0_TITLE" => "",	// Название категории
+				"CATEGORY_0" => array(	// Ограничение области поиска
+					0 => "iblock_1c_catalog",
+				),
+				"CATEGORY_0_iblock_1c_catalog" => array(	// Искать в информационных блоках типа "iblock_1c_catalog"
+					0 => "6",
+				),
+				"SHOW_INPUT" => "Y",	// Показывать форму ввода поискового запроса
+				"INPUT_ID" => "title-search-input",	// ID строки ввода поискового запроса
+				"CONTAINER_ID" => "title-search",	// ID контейнера, по ширине которого будут выводиться результаты
+				),
+				false
+			);?>
+		</div>
+
+
+	</div><!-- #header-->
+</div>
+<div id="wrapper">
+	
+	<div id="middle">
+
+		<div id="container">
+			<div id="content">
+
+					<?$APPLICATION->IncludeComponent(
+						"bitrix:breadcrumb",
+						"",
+						Array(
+							"START_FROM" => "0",
+							"PATH" => "",
+							"SITE_ID" => "-"
+						),
+					false
+					);?>			
+			
+                        <?$APPLICATION->IncludeComponent(
+	                         "bitrix:main.include",
+	                         "",
+	                         Array(
+	                         	"AREA_FILE_SHOW" => "page",
+	                         	"AREA_FILE_SUFFIX" => "inc",
+	                         	"EDIT_TEMPLATE" => ""
+	                         )
+	                  );?>
+                          
+
+					
+					<?$APPLICATION->ShowTitle();?>
+						  

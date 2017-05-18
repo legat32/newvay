@@ -1,0 +1,103 @@
+/* -------------------- Sly Gallery for More_photo -------------------------- */
+/* Example wrapper */
+*{
+	outline: none !important;
+}
+h2{
+	font-size: 18px;
+	font-weight: normal;
+	text-transform: uppercase;
+	font-family: 'Circe-Bold';
+	margin: 30px 0 5px 0;
+}
+.wrap_section { 
+	position: relative; 
+	margin: 5px auto; 
+	padding-top:15px; 
+	width:100%; 
+}
+
+.wrap_section .other-products { 
+	list-style: none; 
+	margin: 0; 
+	padding: 0; 
+	height: 100%; 
+	font-size: 50px; 
+}
+.wrap_section .other-products .other-product { 
+	margin: 0 5px 10px 5px;
+	cursor: pointer;
+	border:2px solid #eee;
+	padding: 10px;
+}
+.wrap_section .other-products .other-product:hover,.wrap_section .other-products .other-product.slick-current.slick-active{
+	border:2px solid #b42e31;
+}
+.wrap_section .other-products .other-product .item_cell { 
+	position: relative;
+}
+.wrap_section .other-products .other-product .item_cell .item_image img {
+	width: 100%;
+	height: auto;
+	max-width: 220px;
+	margin: 0 auto
+}
+.wrap_section .other-products .other-product .item_cell .item_image a{ 
+
+}
+.wrap_section .other-products .other-product .item_cell .item_image img:hover { }
+.wrap_section .other-products .other-product .item_cell .item_image_empty { 
+ 	background: url('/bitrix/templates/new_femina/images/logo.png') center center no-repeat #eee;
+ 	background-size: 70% auto;
+ }
+.wrap_section .other-products .other-product .item_cell .item_image_empty  img{
+	display:block;
+	width:100%;
+	height: auto;
+}
+.wrap_section .other-products .other-product .item_cell .item_artikul_small{
+	display: block;
+	height:20%;
+	width:50%;
+	text-align:center;
+	color:#FFFFFF;
+	font-size: 17px;
+	text-transform: uppercase;
+	font-family: 'Circe-Bold';
+	background: #b42e31;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.wrap_section .other-products .other-product .item_cell .item_artikul_small .item_price{
+	color:#FFFFFF;
+}
+.wrap_section .other-products .slick-dots{
+	width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background: #eee;
+}
+.wrap_section .other-products .slick-dots li {
+    width: 50%;
+    position: relative;
+    height: 10px;
+}
+.wrap_section .other-products .slick-dots li button {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 10px;
+    font-size: 0;
+    padding: 0;
+    border: 0;
+}
+.wrap_section .other-products .slick-dots li.slick-active{
+    background: #000;
+}

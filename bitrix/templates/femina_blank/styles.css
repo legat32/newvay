@@ -1,0 +1,48 @@
+html,body,div,img,ul,li,table{margin:0;padding:0;border:0;outline:0 !important;font-size:100%;vertical-align:baseline;background:transparent}
+ol,ul{list-style:none}:focus{outline:none !important}
+table{border-collapse:collapse;border-spacing:0}
+body{font:14px Arial,sans-serif;}
+a{color:#007acf;cursor: pointer}a:hover{color:#e83434}
+a img{border:none}
+p{
+    font-size:14px;
+    color:#333333;
+    line-height:18px
+}
+h1 {
+    font: bold 18px/18px 'PT Sans', sans-serif;
+    padding:0;
+    text-transform:uppercase;
+}
+.errortext {
+	display: block;
+	padding:10px;
+	padding-left:60px;
+	margin:0;
+	border-top:5px solid #E04472;
+	border-bottom:5px solid #E04472;
+	color:#333333 !important;
+	font-weight:bold;
+	background: #FFCCCC url(/assets/images/ico_warning.png) no-repeat 15px 7px;
+}
+.notetext {
+	
+	display: block;
+	padding:10px;
+	margin:10px 0;
+	/*
+	padding-left:60px;
+	border-top:5px solid #006600;
+	border-bottom:5px solid #006600;
+	color:#333333 !important;
+	font-weight:bold;
+	background: #CCFFCC url(/assets/images/ico_warning.png) no-repeat 15px 15px;
+	*/
+}
+
+.content_table { width:98%;}
+.content_table tr:first-child { background-color:#7a7ee6; }
+.content_table tr:first-child td, .content_table tr:first-child th {color:#FFFFFF; font-weight:bold; padding:5px 10px; border-left:2px solid #FFF;}
+.content_table tr:first-child td:first-child, .content_table tr:first-child th:first-child {border-left:none;}
+.content_table tr { border-bottom: 1px solid #CCC;}
+.content_table tr td, .content_table tr th {padding:5px; text-align:center;}

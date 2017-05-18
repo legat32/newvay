@@ -1,0 +1,16 @@
+#section-list-lev0 {margin-top:15px;}
+#section-list-lev0 ul li { display:block; overflow:hidden; height:auto;}
+#section-list-lev0 ul li ul {margin:10px 10px 10px 200px; }
+#section-list-lev0 ul li ul li {border:none; display: inline-block; margin-right:10px; margin-bottom:0;}
+#section-list-lev0 ul li a.sect_title {display: inline-block; margin-bottom:10px; font: bold 16px/16px 'PT Sans', sans-serif; padding: 0; text-transform: uppercase; color:#E83434;}
+#section-list-lev0 ul li ul li a.sect_title {font: bold 12px/12px Arial,sans-serif; text-transform: none; color:#333333;}
+#section-list-lev0 ul li a.sect_title:hover {color:#E83434;}
+#section-list-lev0 ul li img {margin:5px 10px 10px 10px;}
+#section-list-lev0 ul li .sect_img {display:block; float:left; width:180px; margin-right:20px; text-align:left;}
+#section-list-lev0 ul li .sect_img_blank {display:block; float:left; width:240px; height:100px; margin-right:20px; background: url(/assets/images/logo_transp.png) 50% 50% no-repeat;}
+#section-list-lev0 ul li .sect_img_blank a {display:block; width:240px; height:100px;}
+#section-list-lev0 ul li .descr {display:block;}
+
+#section-list-lev1 ul {margin:5px 0;}
+#section-list-lev1 ul li { display:inline-block; margin-right:10px; font-weight:bold;}
+#section-list-lev1 ul li a {color:#E83434;}

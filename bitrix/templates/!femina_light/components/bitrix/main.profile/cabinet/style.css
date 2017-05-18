@@ -1,0 +1,56 @@
+.profile-table input[type=text], .profile-table input[type=password], .profile-table textarea, .profile-table select {
+	background: #fff;
+	border: 1px solid #c1c5c8;
+	border-radius: 2px;
+	color: #000;
+	box-shadow: inset 2px 2px 2px -1px rgba(180,188,191,0.5);
+	display: inline-block;
+	outline: none;
+	vertical-align: middle;
+	font-size: 12px;
+	padding: 6px 8px;
+	margin:3px;
+	margin-left:0;
+	min-width:250px;
+}
+.profile-table input[type=button] {
+	margin:0;
+	padding:5px 10px;
+}
+.err_input {
+	border:1px solid red !important;
+	background-color: #FFEEEE !important;
+	}
+.profile-table textarea {
+	/*margin-left:5px;*/
+	}
+.bx-auth-profile .profile-table td {
+	padding:10px 0 0 0 !important;
+	}
+.profile-table label {
+	text-transform: lowercase;
+	}
+.profile-table label input[type=radio] {
+	margin-right:5px;
+	margin-left:5px;
+	}
+.profile-table .checkbox-box {
+	padding:3px;
+	width:60%;
+	}
+.profile-table label input[type=radio] {
+	margin-right:5px !important;
+	margin-left:5px !important;
+	}
+.profile-table label input[type=checkbox] {
+	margin-right:5px !important;
+	margin-left:5px !important;
+	padding:2px !important;
+	}
+	
+.additional {
+	font-size:10px;
+	font-style: italic;
+	font-weight: bold;
+	color:rgb(124, 7, 7);
+	}

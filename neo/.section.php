@@ -1,0 +1,6 @@
+<?
+$sSectionName = "neo";
+$arDirProperties = Array(
+
+);
+?>

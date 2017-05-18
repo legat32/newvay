@@ -1,0 +1,164 @@
+.bx_my_order{
+	margin-bottom: 20px;
+	margin-top: 15px;
+}
+.bx_my_order_status_desc{
+	margin: 20px 0 20px 0;
+}
+.bx_my_order_status_desc h2{
+	margin-top: 0;
+	margin-bottom: 5px;
+}
+.bx_mos_desc{
+	font-size: 12px;
+}
+.bx_my_order h3{
+	font-weight: bold;
+	font-size:24px;
+	color: #3f3f3f;
+}
+.bx_my_order .bx_my_order_table{
+	width: 100%;
+	border-collapse: collapse;
+	border: 1px solid #e8e8e8;
+}
+.bx_my_order .bx_my_order_table tr td{
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+			box-sizing: border-box;
+}
+.bx_my_order .bx_my_order_table thead tr td{
+	padding: 10px;
+	border-bottom: 1px solid #d9d9d9;
+	background: #EEE;
+}
+.bx_my_order .bx_my_order_table thead tr td a {
+	font-weight: normal;
+	font-size: 18px;
+	color: #b42e31;
+}
+.bx_my_order .bx_order_action{
+	margin-bottom: 20px;
+}
+.bx_my_order .bx_my_order_table td .price {
+	font-size:140%;
+}
+.bx_my_order .bx_my_order_table td a{font-size: 13px;color: #0073a3}
+.bx_my_order .bx_my_order_table td a:hover{text-decoration: none;}
+.bx_my_order .bx_my_order_table tbody tr td{
+	padding: 15px 10px 5px;
+	color: #3f3f3f;
+	font-size: 16px;
+	vertical-align: top;
+	line-height:30px;
+}
+.bx_my_order .bx_my_order_table tbody tr td:first-child{width: 65%}
+/*.bx_my_order .bx_my_order_table tbody tr td[colspan="2"]{
+	padding: 10px;
+	font-weight: bold;
+	font-size: 15px;
+	color: #3d4345;
+	background: #fafafa;
+}*/
+
+.bx_my_order .bx_item_list{
+	margin: 5px 0 0 0;
+	padding: 0 0 0 30px;
+	list-style: decimal;
+}
+
+.bx_my_order .bx_my_order_status{
+	width: 100%;
+	font-weight: bold;
+	padding: 10px 5px;
+	line-height: normal;
+	margin-bottom: 20px;
+	font-size: 14px;
+	text-shadow: 0 1px 0 rgba(255,255,255,.5)
+}
+.bx_my_order .bx_my_order_status.yellow{background: #ffd34e}
+.bx_my_order .bx_my_order_status.red   {background: #fb7474}
+.bx_my_order .bx_my_order_status.green {background: #ade421}
+.bx_my_order .bx_my_order_status.gray  {background: #bbbbbb}
+
+
+@media (max-width: 550px){
+	.bx-touch .bx_my_order .bx_my_order_table tr,
+	.bx-touch .bx_my_order .bx_my_order_table tbody,
+	.bx-touch .bx_my_order .bx_my_order_table tbody td{display: block;width: 100% !important;}
+	.bx-touch .bx_my_order .bx_my_order_table tbody{border-top: 1px solid #e8e8e8;}
+	.bx-touch .bx_my_order .bx_my_order_table thead td{display: inline-block; white-space: nowrap;width: auto !important;background: transparent !important;border: none;box-shadow: none}
+	.bx_my_order .bx_my_order_status{
+		padding: 10px;
+		position: relative;
+		margin-left: -10px;
+	}
+}
+
+.bx_my_order .bx_bt_button_type_2{
+	display:inline-block;
+	border-radius:3px;
+	text-align:center;
+	text-decoration:none;
+	font-size:14px;
+	cursor:pointer;
+	color: #3f3f3f !important;
+}
+.bx_my_order .bx_shadow.bx_bt_button_type_2{box-shadow:0 1px 1px 0 rgba(0,0,0,.2)}
+.bx_my_order .bx_shadow.bx_bt_button_type_2:active{box-shadow:none}
+
+.bx_my_order .bx_bt_button_type_2 		{
+	border:1px solid #e9e9e9;
+	background:#fcfcfc;
+	color:#656565;
+	text-shadow:0 1px 0 #fff;
+}
+.bx_my_order .bx_bt_button_type_2:hover 	{background:#fff}
+.bx_my_order .bx_bt_button_type_2:active {
+	background:#f1f1f1;
+	box-shadow:inset 0 2px 2px 0 rgba(0,0,0,.05);
+}
+
+.bx_my_order .bx_small.bx_bt_button_type_2{
+	display:inline-block;
+	min-width:20px;
+	line-height:20px;
+}
+.bx_my_order .bx_small.bx_bt_button_type_2 		{}
+.bx_my_order .bx_small.bx_bt_button_type_2:hover {}
+.bx_my_order .bx_small.bx_bt_button_type_2:active{}
+
+.bx_my_order .bx_medium.bx_bt_button_type_2	{
+	padding:0 13px;
+	height:25px;
+	font-weight:bold;
+	line-height:25px;
+}
+
+.bx_my_order .bx_medium.bx_bt_button_type_2 		 {font-weight:bold}
+.bx_my_order .bx_medium.bx_bt_button_type_2:hover {}
+.bx_my_order .bx_medium.bx_bt_button_type_2:active{}
+
+.bx_my_order .bx_big.bx_bt_button_type_2	{
+	padding:0 13px;
+	height:34px;
+	font-weight:bold;
+	line-height:34px;
+}
+
+.bx_my_order .bx_big.bx_bt_button_type_2 	  {}
+.bx_my_order .bx_big.bx_bt_button_type_2:hover {}
+.bx_my_order .bx_big.bx_bt_button_type_2:active{}
+
+.bx_my_order_switch {
+	margin-bottom: 15px;
+	line-height: 30px;
+}
+.bx_my_order_switch .bx_mo_link{
+	margin-right: 20px;
+}
+
+
+.user_tab_nav {
+
+}

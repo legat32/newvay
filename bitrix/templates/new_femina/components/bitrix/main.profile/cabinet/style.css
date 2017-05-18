@@ -1,0 +1,44 @@
+.bx-auth-profile form {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	flex-wrap: wrap;
+}
+.bx-auth-profile form > div{
+	width: 45%;
+}
+.bx-auth-profile form .property .additional{
+	font-size: 13px;
+	color: #333;
+}
+.bx-auth-profile form .property .property-name{
+	display: inline-block;
+	width: 100%;
+	font-size: 18px;
+	font-family: 'Circe-Bold';
+	margin: 25px 0 15px;
+	text-transform: uppercase;
+}
+.bx-auth-profile span.required{
+	color: red;
+	font-size: 16px;
+}
+.bx-auth-profile form .property .fields.string{
+	min-height: 40px;
+}
+.bx-auth-profile .property{
+	width: 100% !important;
+}
+@media (max-width: 700px){
+	.bx-auth-profile form{
+	flex-wrap: wrap;
+	
+	}
+	.bx-auth-profile form > div{
+		width: 100%;
+	}
+	
+}
+.bx-auth-profile{
+	margin-bottom: 40px;
+}

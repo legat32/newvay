@@ -1,0 +1,618 @@
+.item_wrapper {
+	width:100%;
+	min-height:500px;
+	margin-top:10px;
+}
+.item_images { 
+	width:350px;
+	min-height:500px;
+	float:left;
+	position: relative;
+	}
+.item_artikul {
+	display:inline-block;
+	width:auto;
+	height:20px;
+	padding:5px 10px 0 10px;
+	text-align:center;
+	background: #e9e9e9;
+	font: bold 13px/13px 'PT Sans', sans-serif;
+	color:#333333;
+	border-radius: 3px 3px 0 0;
+}
+.item_detail_img {
+
+}
+.item_img {
+	display:block;
+	text-align:center;
+	border:8px solid #e9e9e9;
+	border-radius:0 3px 3px 3px;
+	width: 332px;
+	}
+.item_img_blank {
+	display:block;
+	width:333px;
+	height:500px;
+	text-align:center;
+	border:8px solid #e9e9e9;
+	border-radius:0 3px 3px 3px;
+	background: url(/assets/images/logo_transp.png) no-repeat 50% 50%;
+	}
+	
+.table-prop {
+	margin: 0 0 20px 10px;
+}
+.table-prop tr:first-child {
+	background: #f2f2f2;
+}
+.table-prop th, .table-prop td {
+	border-top: 1px solid #CCC;
+	border-bottom: 1px solid #CCC;
+	padding: 4px 10px;
+}
+.table-prop th:first-child {
+	width:125px;
+}
+	
+	
+	
+.item_season, .item_sale, .item_utsenka , .item_novinka {
+	position:absolute;
+	top:45px;
+	left:0;
+	width:120px;
+	color:#FFF;
+	font-family: Arial, serif;
+	font-size: 16px;
+	line-height: 17px;
+	text-align: center;
+	text-decoration: none;
+	}
+.item_novinka {
+	height:25px;
+	background: #fd4e1f url(/assets/images/blik200.png) no-repeat 0 -33px;
+	padding-top:7px;
+	text-shadow: 1px 1px 2px #525252;
+	}	
+.item_akciya_on_site {
+	position: absolute;
+	margin-top: 0px;
+	width: 100px;
+	height: 100px;
+	right: -10px;
+	background: url(/upload/star100.png) no-repeat;
+	padding-top: 4px;
+	}
+.item_zimniy_tsenopad {
+	position: absolute;
+	margin-top: -10px;
+	width: 120px;
+	height: 123px;
+	right: -17px;
+	background: url(/upload/zimniy_tsenopad_120.png) no-repeat;
+	padding-top: 4px;
+	}
+.item_aktsiya {
+	position: absolute;
+	margin-top: 0px;
+	width: 100px;
+	height: 90px;
+	right: -17px;
+	background: url(/upload/listopad_akc_big.png) no-repeat;
+	padding-top: 4px;
+	}
+.item_bamboo {
+	position: absolute;
+	width: 110px;
+	height: 110px;
+	left: 0;
+	top: 445px;
+	background: url(/upload/bamboo110_80.png) no-repeat;
+	padding-top: 4px;
+	}
+	
+	
+.item_akciya_on_site:hover {
+	color:yellow;
+	}
+.item_sale {
+	height:25px;
+	background: #51b31d url(/assets/images/blik200.png) no-repeat 0 -33px;
+	padding-top:7px;
+	text-shadow: 1px 1px 2px #525252;
+	}
+.item_season {
+	height:40px;
+	background: #ffa800 url(/assets/images/blik200.png) no-repeat 0 -29px;
+	padding-top:3px;
+	text-shadow: 1px 1px 2px #d68f06;
+	}
+.item_utsenka {
+	font-size: 20px;
+	line-height: 20px;
+	height:26px;
+	width:60px;
+	background: #dd3163 url(/assets/images/blik200.png) no-repeat 0 -36px;
+	padding-top:3px;
+	text-shadow: 1px 1px 2px #d68f06;
+	}
+.item_season:hover , .item_sale:hover, .item_utsenka:hover {
+	color: #FFF;
+	text-decoration: none;
+	}
+	
+/*
+.item_sale {
+	position: absolute;
+	margin-top:20px;
+	width:120px;
+	height:27px;
+	background: url(/assets/images/sale.png) no-repeat;
+	}
+*/
+	
+.item_more_files {
+	height:auto;
+	margin-top:15px;
+	}
+.item_descr {
+	width:390px;
+	float:right;
+	}
+.item_descr h1 {
+	font: bold 20px/20px 'PT Sans', sans-serif;
+	text-transform:uppercase;
+	padding:10px 0 0 0;
+	border-bottom: none;
+	}
+.sostav {
+	height:50px;
+	}
+.sostav_label {
+	font-weight:bold;
+	}
+.sostav_value {
+	display:inline-block;
+	padding-left:15px;
+	}
+	
+.offers_wrapper {
+	min-height:300px;
+	}
+.offer_select {
+	/*border-top:1px dashed #9d3a61;*/
+	border-bottom:1px dashed #9d3a61;
+	padding:25px 0;
+
+	}
+	
+#color_title, #size_title {
+	font-weight:bold;
+	margin-top:5px;
+	line-height: 26px;
+	}
+#size_title a.fancybox-iframe{
+	display: inline;
+}
+.color_vars {
+	padding-left:15px;
+	margin-bottom:10px;
+	}
+.size_vars {
+	padding-left:15px;
+	}
+
+	
+	
+.back_link {
+	display: block;
+	position: absolute;
+	right:0;
+	top:50px;
+	}
+.back_link_akciya {
+	display: block;
+	position: absolute;
+	right:115px;
+	top:49px;
+	color:red;
+	font-weight:bold;
+	font-size:14px;
+	}
+
+
+
+
+.color_var {
+	display:block;
+	float:left;
+	overflow:hidden;
+	width:34px;
+	height:22px;
+	margin:3px;
+	padding:0;
+	border:1px solid #CCCCCC;
+	}
+.color_img {
+	display:block;
+	position:absolute;
+	width:100%;
+	height:22px;
+	border: 2px solid #FFFFFF;
+	overflow: hidden;
+	}
+.color_var .no-ex {
+	/*
+	display:block;
+	position:absolute;
+	width:34px;
+	height:34px;
+	background: url(/assets/images/no-ex1.png) no-repeat 50% 50%;
+	*/
+	}
+
+
+
+
+
+.offer_select div .exists a .no-ex,
+.offer_select div .exists .no-ex {
+	display:none;
+	}
+
+
+
+
+.size_var {
+	display:block;
+	float:left;
+	overflow:hidden;
+	width:34px;
+	height:24px;
+	margin:3px;
+	padding:0;
+	border:1px solid #CCCCCC;
+	}
+.size_val {
+	display:block;
+	position:absolute;
+	width:30px;
+	height:12px;
+	padding:3px 0 5px 0;
+	border: 2px solid #FFFFFF;
+	background-color:#f2f2f2;
+	text-align:center;
+	font: bold 13px/13px 'PT Sans', sans-serif;
+	color:#999999;
+	overflow:hidden;
+	line-height:15px;
+	}
+.size_var .no-ex {
+	display:block;
+	position:absolute;
+	width:34px;
+	margin-top:2px;
+	height:19px;
+	background: url(/assets/images/no-ex1.png) no-repeat 50% 50%;
+	}
+	
+.prim {
+	color:#666666;
+	font-size:10px;
+	margin-top:5px;
+	text-align:right;
+	}
+.prim .no-ex {
+	display:inline-block;
+	width:15px;
+	height:12px;
+	background: url(/assets/images/no-ex1.png) no-repeat 50% 50%;
+	border:1px solid #DDDDDD;
+	}
+	
+
+
+	
+	
+	
+.size_var.exists:hover, .color_var.exists:hover {
+	box-shadow:1px 1px 1px gray;
+	}
+.offer_select .active { 
+	margin: 1px;
+	border:3px solid #6668bc;
+	}
+.offer_select .no-exists {
+	background-color:red;
+	}
+.offer_select .exists {
+	cursor:pointer;
+	}
+.color_var .exists {
+	}
+
+.offer_block {
+	padding-top:15px;
+	display: none;
+	}
+
+
+	
+.offer_color, .offer_size {
+	font-size:100%;
+	line-height:18px;
+	margin-left:15px;
+	}
+
+.limit_block {
+	position:relative;
+	margin-top:10px;
+	width:200px;
+	height:70px;
+}
+.limit_ico {
+	position:absolute;
+	width:25px;
+	height:25px;
+	background:url(/assets/images/ico_sprite.png) 0 -100px no-repeat;
+	}
+.limit_text {
+	position:absolute;
+	width:200px;
+	height:auto;
+	top:5px;
+	left:15px;
+	font-size:10px;
+	line-height:12px;
+	margin:5px;
+	padding:5px;
+	background-color:#EEEEEE;
+	}
+
+
+	
+	
+.buy_panel {
+	height:50px;
+	}
+.price_block {
+	float:left;
+	width:200px;
+	}
+.buy_block {
+	width:180px;
+	float:right;
+	text-align: center;
+	}
+.price_title {
+	font: bold 16px/20px 'PT Sans', sans-serif;
+	color: #333333;
+	margin-bottom: 10px;
+    display: inline-block;
+	}
+.price_value {
+	font: bold 20px/20px 'PT Sans', sans-serif;
+	color: #e04472;
+	white-space: nowrap;
+	}
+.price_title_old, .price_value_old {
+	color: red;
+    font-weight: bold;
+	}
+.price_title_old {padding-left: 17px;}
+.buy_block .quant {
+	display:block;
+	float:right;
+	width:40px;
+	border:1px solid #999;
+	height:21px;
+	text-align:center;
+	margin:3px;
+	padding: 0 !important;
+	}
+.count {
+	float:right;
+	margin-top:10px !important;
+	}
+.btn_minus {
+	display: block;
+	float:right;
+	width: 26px;
+	height: 23px;
+	background: url(/assets/images/btn_minus.png) no-repeat;
+	margin:3px;
+	}
+.btn_plus {
+	display: block;
+	float:right;
+	width: 26px;
+	height: 23px;
+	background: url(/assets/images/btn_plus.png) no-repeat;
+	margin:3px;
+	}
+.btn_plus:hover, .btn_minus:hover {
+	box-shadow:1px 1px 1px gray;
+	} 
+input.btn_buy {
+	display:block !important;
+	width:93px !important;
+	height:37px !important;
+	margin:5px 70px !important;
+	cursor: pointer !important;
+	background: url(/assets/images/btn_buy.png) 0 -37px no-repeat !important;
+	border: none !important;
+	}
+input.btn_buy:hover {
+	background: url(/assets/images/btn_buy.png) 0 0 no-repeat !important;
+	}
+	
+	
+	
+	
+.links {
+	display: block;
+	margin-top:15px;
+	}
+.links span {
+	display:block;
+	float:left;
+	width:25px;
+	height:25px;
+	margin-right:10px;
+	margin-top:5px;
+	}
+.links a {
+	display:block;
+	float:none;
+	height:25px;
+	padding-top:8px;
+	color:#333333;
+	line-height: 33px;
+	}
+.link_ask { background:url(/assets/images/ico_sprite.png) 0 0 no-repeat; }
+.link_order { background:url(/assets/images/ico_sprite.png) 0 -25px no-repeat; }
+.link_sizes { background:url(/assets/images/ico_sprite.png) 0 -50px no-repeat; }
+.link_colors { background:url(/assets/images/ico_sprite.png) 0 -50px no-repeat; }
+.link_print { background:url(/assets/images/ico_sprite.png) 0 -75px no-repeat; }
+
+.buy-register {
+	display: block;
+	height:30px;
+	font: bold italic 11px/16px sans-serif;
+	text-align:center;
+	color:#666;
+}
+.price_type {
+    border-radius: 3px;
+    color: #FFFFFF;
+    display: inline-block;
+    font-size: 12px;
+    padding: 0 5px;
+}
+.need-register {
+	display:block;
+	width:155px;
+	font-size:12px;
+	font-style: italic;
+	margin-left:20px;
+	}
+
+
+
+
+/* -------------------- AJAX page for NALICHIE ----------------------------- */
+.nalichie {
+	background-color:#FFFFFF;
+	}
+.nalichie tr td {
+	padding:5px 10px;
+	border:1px solid #FFFFFF;
+	line-height:35px;
+	text-align:center;
+	background-color: #ECECEC;
+	}
+.nalichie tr td:first-child {	
+	text-align:left;
+	}
+.nalichie tr:first-child td {
+	background-color: #e5e5e5;
+	font-weight:bold;
+	}
+.jx_color_img {
+	width:34px;
+	height:34px;
+	border: 1px solid #CCC;
+	float:left;
+	margin-right:10px;
+	}
+.jx_color_img img{
+	width:30px;
+	height:30px;
+	border: 2px solid #FFFFFF;
+	}
+
+	
+.color_vars {border:1px solid #EEE; margin: 5px 0 0 15px; padding-left:0; overflow:hidden;}
+.color_var { float:none; width:auto; height:22px; border:none; margin:0;}
+.color_img {width:100%; height:22px; border:none; color:#333; margin-left:5px;}
+.color_img img { width:10px; height:10px; }
+.color_var.active, .color_var.exists.active:hover { margin: 0; background-color: #6668bc; border:none; padding-left:4px;}
+.color_var.active .color_img {color: white; font-style:italic; margin-left:2px;}
+.color_var.exists:hover { background:#F6F6F6;}
+.all-colors {display:block;width:160px; height:20px; margin:0; margin-left:125px;  padding:0; text-decoration:underline; color:#FFF; font-size: 12px; cursor:pointer; text-align:center; border-radius:0 0 5px 5px; border:1px solid #EEE; border-top:0; background: #CCC}	
+
+
+
+/* --------------------- good display properties */
+dl.good_props {
+	position: relative;
+	margin-bottom:0;
+}
+dl.good_props dt {
+	display: inline-block;
+	float: left;
+	width: 50%;
+	font-weight: normal !important;
+	font-size: 14px;
+    line-height: 22px;
+    padding: 3px 0;
+}
+dl.good_props dd {
+	font-size: 14px;
+	line-height: 22px;
+	border-top: 1px solid #EEE;
+	padding: 3px 0;
+}
+dl.good_props dd:last-child {
+	border-bottom: 1px solid #EEE;
+}
+
+table.good_props {
+	width: 100%;
+}
+table.good_props th {
+	padding:3px 10px;
+	border: 1px solid #DDD;
+	background: #e9e9e9;
+	text-align: center;
+	color: black;
+	font-weight: normal;
+}
+table.good_props td {
+	padding:3px 10px;
+	border: 1px solid #EEE;
+	text-align: center;
+}
+table.good_props.col0 td {
+	text-align:left;
+	border-left: none;
+	border-right: none;
+}
+table.good_props tr td:first-child {
+	text-align:left;
+	border-left: none;
+}
+table.good_props tr th:first-child {
+	border-left:none;
+}
+table.good_props tr td:last-child, table.good_props tr th:last-child {
+	border-right: none;
+}
+
+
+	
+/* -------------------- Sly Gallery for More_photo -------------------------- */
+/* Example wrapper */
+.wrap_more { position: relative; background-color: #f2f2f2; margin: 5px auto; padding-top:8px; width:340px; height:170px; border:1px dashed black; }
+.wrap_more .wrap { position: relative;  margin: 0 auto; width:330px; height:160px; }
+/* Frame */
+.wrap_more .wrap .frame { height: 152px; overflow: hidden; }
+.wrap_more .wrap .frame ul { list-style: none; margin: 0; padding: 0; height: 100%; font-size: 50px; }
+.wrap_more .wrap .frame ul li { float: left; width: 110px; height: 152px; margin: 0; padding: 0; text-align: center; cursor: pointer; }
+.wrap_more .wrap .frame ul li img { width:100px; height:150px; border:1px solid #6666cc; border-radius:2px; }
+.wrap_more .wrap .frame ul li.active { color: #fff; }
+/* Scrollbar */
+.wrap_more .scrollbar { margin: 0 0 1em 0; height: 10px; background: #ccc; line-height: 0; }
+.wrap_more .scrollbar .handle { width: 100px;  height: 100%; background: #292a33; cursor: pointer; }
+.wrap_more .scrollbar .handle .mousearea { position: absolute; top: -9px; left: 0; width: 100%; height: 20px; }
